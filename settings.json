@@ -17,5 +17,11 @@
   "telemetry": {
     "diagnostics": false,
     "metrics": false
+  },
+  "formatter": {
+    "external": {
+      "command": "/Users/pgrossma/.brew/bin/clang-format",
+      "arguments": ["--style=file:/Users/pgrossma/.brew/bin/clang-format/.clang-format"]
+    }
   }
 }
