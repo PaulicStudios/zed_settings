@@ -8,7 +8,7 @@
 // from the command palette or from `Zed` application menu.
 {
   "ui_font_size": 16,
-  "buffer_font_size": 16,
+  "buffer_font_size": 14,
   "hour_format": "hour24",
   "autosave": "on_focus_change",
   "hard_tabs": true,
@@ -20,8 +20,8 @@
   },
   "formatter": {
     "external": {
-      "command": "/Users/pgrossma/.brew/bin/clang-format",
-      "arguments": ["--style=file:/Users/pgrossma/.brew/bin/clang-format/.clang-format"]
+      "command": "/Users/pgrossma/.brew/Cellar/clang-format/18.1.3/bin/clang-format",
+      "arguments": ["--style=file:/Users/pgrossma/.brew/Cellar/clang-format/18.1.3/bin/norm"]
     }
   }
 }
